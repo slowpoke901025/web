@@ -1,0 +1,176 @@
+/* global */
+@font-face
+{
+    font-family:Noto Sans TC PC ;
+    src: url(font/NotoSansTC-Regular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    font-family: 'Noto Sans TC', 'Noto Sans TC PC', sans-serif;
+    margin: 0 auto;
+    width: 1024px;
+    background-color: #0B3C5D;
+}
+
+hr
+{
+    margin: 10px 5px 10px 10px;
+    height: 1px;
+    background-color: grey;
+}
+
+h2
+{
+    font-size: 20px;
+    border-left: #F3C677 8px solid;
+    text-indent: 8px;
+    margin-bottom: 10px;
+}
+
+
+/* header */
+header
+{
+   height: 70px;
+   padding: 10px;
+   position: relative;
+}
+
+header .AACSB
+{
+   height: 30px;
+   position: absolute;
+   left: 390px;
+   bottom: 23px;
+   border: 3px #fff solid;
+   float: right;
+}
+
+/* all section*/
+.card_container 
+{
+    padding: 10px; /* for padding sections */
+    font-weight: bold;
+}
+
+
+ /* first section */
+#first_section
+{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.Box
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;  
+}
+
+.Box div
+{
+    margin-left: 5px;
+    border: 1px grey solid;
+}
+
+.Box div:hover
+{
+    box-shadow: 0 0 10px grey;
+}
+
+.Box img
+{
+    height: 212px;
+   border-bottom: 1px grey solid;
+}
+
+.Box p
+{
+    font-size: 14px;
+    padding: 5px 0 10px 10px ;
+}
+
+
+/* second section */
+#second_section h2
+{
+   color: #FFF;
+}
+
+#second_section hr
+{
+    background-color: #fff;
+}
+
+.LinkBox
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 925px;
+    height: 215px;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.LinkBox a
+{
+    width: 220px;
+    height: 100px;
+    background-color:#FFF;
+    border-radius: 3px; 
+    font-size: 18px;
+    color: #0B3C5D;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.LinkBox a:hover
+{
+    filter: brightness(1.5);
+}
+
+
+/* third section */
+#third_section
+{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+#third_section p
+{
+    text-indent: 10px;
+    font-size: 16px;
+}
+
+
+/* footer */
+footer
+{
+    padding: 5px; 
+}
+
+footer p
+{
+    margin-top: 10px;
+    font-size: 12px;
+    text-indent: 10px;
+    color: #FFF;
+
+}
+
+footer img
+{
+    height: 50px;
+}
